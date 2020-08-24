@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BrigadeIdentifier</fullName>
+    <active>true</active>
+    <errorConditionFormula>Brigade__r.RecordType.DeveloperName  = &apos;Customer&apos;</errorConditionFormula>
+    <errorDisplayField>Brigade__c</errorDisplayField>
+    <errorMessage>The Brigade field can&apos;t have a Customer type</errorMessage>
+</ValidationRule>
